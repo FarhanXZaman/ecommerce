@@ -21,7 +21,7 @@ export default function Info(props) {
                 </div>
                 <button onClick={addToCart} className='cursor-pointer flex items-center justify-center font-bold gap-3 bg-[hsl(26,100%,55%)] w-xs'>
                     <img className='text-black' src="./images/icon-cart.svg" alt="" />
-                    <span className='text-white'>Add to cart</span>
+                    <span className='text-white'>Add to carts</span>
                 </button>
             </div>
         </main>
