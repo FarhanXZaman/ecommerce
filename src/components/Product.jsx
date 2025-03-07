@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Product(props) {
     const {showBorder, selectImage, displayImg} = props
-    const display = `../images/image-product-${displayImg}.jpg`
+    const display = `/images/image-product-${displayImg}.jpg`
     
   return (
     <>
