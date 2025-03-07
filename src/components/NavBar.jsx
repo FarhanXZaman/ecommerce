@@ -20,8 +20,8 @@ export default function NavBar(props) {
         </nav>
         </div>
         <div className= 'flex items-center justify-between w-24'>
-            <button onClick={showCart}><img src="/images/icon-cart.svg" alt="" /></button>
-            <img className='w-10' src="/images/image-avatar.png" alt="" />
+            <button onClick={showCart}><img src="../images/icon-cart.svg" alt="" /></button>
+            <img className='w-10' src="../images/image-avatar.png" alt="" />
         </div>
         <div style={cart?{display: 'block'}:{display:'none'}} className='absolute bg-white shadow-xl w-66 h-44 right-15 top-15'>
           <span className='font-bold m-4'>Cart</span>

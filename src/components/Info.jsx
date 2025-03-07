@@ -15,12 +15,12 @@ export default function Info(props) {
             <span className='text-xm text-[hsl(219,9%,45%)] line-through'>$250.00</span>
             <div className='flex gap-3'> 
                 <div className='bg-[hsl(223,64%,98%)] w-30 h-12 flex items-center justify-around gap-3'>
-                    <button className='cursor-pointer' onClick={removeProduct}><img src="./images/icon-minus.svg" alt="" /></button>
+                    <button className='cursor-pointer' onClick={removeProduct}><img src="../images/icon-minus.svg" alt="" /></button>
                     <div>{quantity}</div>
-                    <button className='cursor-pointer' onClick={addProduct}><img src="./images/icon-plus.svg" alt="" /></button>
+                    <button className='cursor-pointer' onClick={addProduct}><img src="../images/icon-plus.svg" alt="" /></button>
                 </div>
                 <button onClick={addToCart} className='cursor-pointer flex items-center justify-center font-bold gap-3 bg-[hsl(26,100%,55%)] w-xs'>
-                    <img className='text-black' src="./images/icon-cart.svg" alt="" />
+                    <img className='text-black' src="../images/icon-cart.svg" alt="" />
                     <span className='text-white'>Add to carts</span>
                 </button>
             </div>
