@@ -9,7 +9,7 @@ export default function NavBar(props) {
     <>
     <main className='h-18 flex items-center justify-between gap-9 px-20'>
         <div className='flex items-center justify-center gap-10'>
-        <img src="./images/logo.svg" alt="" />
+        <img src={import.meta.env.BASE_URL +"/images/logo.svg"} alt="" />
         <nav>
             <ul className='text-[hsl(219,9%,45%)] flex items-center justify-center w-5/4 gap-5'>
                 <a href="/"><li>Collections</li></a>
@@ -22,7 +22,7 @@ export default function NavBar(props) {
         </div>
         <div className= 'flex items-center justify-between w-24'>
             <button onClick={showCart}><img src={import.meta.env.BASE_URL + "/images/icon-cart.svg"} alt="" /></button>
-            <img className='w-10' src="./images/image-avatar.png" alt="" />
+            <img className='w-10' src={import.meta.env.BASE_URL + "/images/image-avatar.png"} alt="" />
         </div>
         <div style={cart?{display: 'block'}:{display:'none'}} className='absolute bg-white shadow-xl w-66 h-44 right-15 top-15'>
           <span className='font-bold m-4'>Cart</span>
