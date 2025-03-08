@@ -9,7 +9,7 @@ export default function NavBar(props) {
     <>
     <main className='h-18 flex items-center justify-between gap-9 px-20'>
         <div className='flex items-center justify-center gap-10'>
-        <img src="/images/logo.svg" alt="" />
+        <img src="./images/logo.svg" alt="" />
         <nav>
             <ul className='text-[hsl(219,9%,45%)] flex items-center justify-center w-5/4 gap-5'>
                 <a href="/"><li>Collections</li></a>
